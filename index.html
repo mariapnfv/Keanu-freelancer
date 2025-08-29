@@ -1,12 +1,275 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keanu-freelancer
-</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Keanu-freelancer</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-  
+  <header class="header content-section_theme_light">
+    <img class="header__logo" src="images/logo.svg" alt="лого">
+    <ul class="header__social-list">
+      <li class="header__social-list-item">
+        <a href="#">
+          <img src="images/github.svg" alt="github">
+        </a>
+      </li>
+      <li class="header__social-list-item">
+        <a href="#">
+          <img src="images/twitter.svg" alt="twitter">
+        </a>
+      </li>
+      <li class="header__social-list-item">
+        <a href="#">
+          <img src="images/instagram.svg" alt="instagram">
+        </a>
+      </li>
+      <li class="header__social-list-item">
+        <a href="#">
+          <img src="images/facebook.svg" alt="facebook">
+        </a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <section class="section__author content-section_theme_light">
+      <div class="section__name">
+        <span class="section__name-job"> Фрилансер </span>
+        <h1 class="section__name-name">Петр Федоров</h1>
+        <p class="section__name__desc">
+          Разрабатываю сайты для малого и&nbsp;среднего бизнеса. У&nbsp;меня
+          можно заказать дизайн и&nbsp;верстку небольшого сайта или
+          интернет-магазина
+        </p>
+        <button class="section__author__button button">
+          Бесплатная консультация
+        </button>
+      </div>
+      <div class="section__author__userpic">
+        <img class="section__author__userpic-img" src="images/avatar.png" alt="Петр Федоров">
+      </div>
+    </section>
+    <section class="section__features content-section_theme_dark">
+      <h2 class="features__title">Со мной удобно работать</h2>
+      <div class="features-features">
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/offer-img.svg" alt="features">
+          <h3 class="features__offer-block-title">По договору</h3>
+          <p class="features__offer-block-desc">
+            Предоставлю все документы для бухгалтерии: договоры, счета и акты.
+            Работаю как ИП без НДС.
+          </p>
+        </div>
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/deadline-img.svg" alt="deadline">
+          <h3 class="features__offer-block-title">Точно в срок</h3>
+          <p class="features__offer-block-desc">
+            В договоре прописана моя ответственность за срок проекта. Если
+            просрочу — плачу неустойку.
+          </p>
+        </div>
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/agreement-img.svg" alt="agreement">
+          <h3 class="features__offer-block-title">Ценник под вас</h3>
+          <p class="features__offer-block-desc">
+            Если у вас нетиповой проект, сделаю рассчет цены за работу и
+            объясню, как складывается цена.
+          </p>
+        </div>
+
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/steps-img.svg" alt="steps">
+          <h3 class="features__offer-block-title">Премежуточные итоги</h3>
+          <p class="features__offer-block-desc">
+            Показываю работу поэтапно, а не в последий момент перед крайним
+            сроком.
+          </p>
+        </div>
+
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/storage-img.svg" alt="storage">
+          <h3 class="features__offer-block-title">Хостинг и домен</h3>
+          <p class="features__offer-block-desc">
+            Если мы договорились о цене проекта, в неё входит всё: домен и
+            хостинг на год + SSL сертификат.
+          </p>
+        </div>
+        <div class="features__offer-block">
+          <img class="features__offer-block-icon" src="images/conversation-img.svg" alt="conversation">
+          <h3 class="features__offer-block-title">Не брошу после сдачи</h3>
+          <p class="features__offer-block-desc">
+            Научу вас или вашего сотрудника пользоваться сайтом, запишу
+            видео-инструкции.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__portfolio content-section_theme_light">
+      <h2 class="section__portfolio-title">
+        Выполненные проекты
+      </h2>
+      <div class="section__portfolio__cads">
+
+        <div class="portfolio__cads-content portfolio__cads-content-corner">
+          <div class="gradient"></div>
+          <h3 class="portfolio__cads-content-title">
+            The curious corner <br>
+            of chamarel
+          </h3>
+          <button class="portfolio__cads-content-more">Посмотреть</button>
+
+        </div>
+
+
+        <div class="portfolio__cads-content portfolio__cads-content-golf">
+          <div class="gradient"></div>
+          <h3 class="portfolio__cads-content-title">
+            Gymkhana club golf<br>
+            course
+          </h3>
+          <button class="portfolio__cads-content-more">Посмотреть</button>
+
+        </div>
+
+        <div class="portfolio__cads-content portfolio__cads-content-hiking_trip">
+          <div class="gradient"></div>
+          <h3 class="portfolio__cads-content-title">
+            Tamarind falls hiking<br>
+            trip - full day
+          </h3>
+          <button class="portfolio__cads-content-more">Посмотреть</button>
+
+        </div>
+      </div>
+
+    </section>
+    <section class="section__gallery content-section_theme_dark">
+      <div class="section__gallery-gallery">
+        <a class="gallery__link" href="images/rectangle1.png" data-lightbox="my-gallery">
+          <img src="images/rectangle1.png" class="gallery-photo" alt="фото1">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle2.png" data-lightbox="my-gallery">
+          <img src="images/rectangle2.png" class="gallery-photo" alt="фото1">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle3.png" data-lightbox="my-gallery">
+          <img src="images/rectangle3.png" class="gallery-photo" alt="фото1">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle4.png" data-lightbox="my-gallery">
+          <img src="images/rectangle4.png" class="gallery-photo" alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle5.png" data-lightbox="my-gallery">
+          <img src="images/rectangle5.png" class="gallery-photo" alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/video1.png" data-lightbox="my-gallery">
+          <img src="images/video1.png" class="gallery-photo" alt="фото">
+          <div class="video">
+            <p class="video__time"> 0:28
+            </p>
+            <img class="video__icon" src="images/play_circle_filled.svg" alt="icon-video">
+          </div>
+        </a>
+
+        <a class="gallery__link" href="images/rectangle7.png" data-lightbox="my-gallery">
+          <img src="images/rectangle7.png" class="gallery-photo" alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle8.png" data-lightbox="my-gallery">
+          <img src="images/rectangle8.png" class="gallery-photo" alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle9.png" data-lightbox="my-gallery">
+          <img src="images/rectangle9.png" class="gallery-photo" alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/rectangle10.png" data-lightbox="my-gallery">
+          <img src="images/rectangle10.png" class="gallery-photo " alt="фото">
+        </a>
+
+        <a class="gallery__link" href="images/video2.png" data-lightbox="my-gallery">
+          <img src="images/video2.png" class="gallery-photo" alt="фото">
+          <div class="video">
+            <p class="video__time"> 0:45
+            </p>
+            <img class="video__icon" src="images/play_circle_filled.svg" alt="icon-video">
+          </div>
+        </a>
+
+        <a class="gallery__link" href="images/rectangle12.png" data-lightbox="my-gallery">
+          <img src="images/rectangle12.png" class="gallery-photo" alt="фото">
+        </a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer content-section_theme_light">
+    <h2 class="footer__contacts-title">
+      Свяжитесь со мной
+    </h2>
+    <div class="footer__contacts">
+      <form class="footer__contacts__form">
+        <h3 class="footer__contacts__form-title">
+          Можете просто оставить заявку, я позвоню вам сегодня
+        </h3>
+        <input class="footer__contacts__form-input footer__contacts__form-name input-with-icon-name"
+          placeholder="Ваше имя" type="text">
+        <input class="footer__contacts__form-input footer__contacts__form-phone input-with-icon-phone"
+          placeholder="Ваш телефон" type="text">
+        <button class="footer__contacts__form-button button">Бесплатная консультация </button>
+      </form>
+      <div class="footer__contacts__text">
+        <div class="footer__contacts__text-phone">
+          <h4 class="contacts-links-title">Телефон</h4>
+          <a class="contacts-links-info" href="tel:+79991234567">+7 999 123 45 67</a>
+        </div>
+
+        <div class="footer__contacts__text-email">
+          <h4 class="contacts-links-title">Почта</h4>
+          <a class="contacts-links-info" href="mailto:ivanov@mail.ru">ivanov@mail.ru</a>
+        </div>
+
+        <div class="footer__contacts__social-link">
+          <h4 class="contacts-links-title">Соцсети</h4>
+          <ul class="header__social-list">
+            <li class="header__social-list-item">
+              <a href="#">
+                <img src="images/github.svg" alt="github">
+              </a>
+            </li>
+            <li class="header__social-list-item">
+              <a href="#">
+                <img src="images/twitter.svg" alt="twitter">
+              </a>
+            </li>
+            <li class="header__social-list-item">
+              <a href="#">
+                <img src="images/instagram.svg" alt="instagram">
+              </a>
+            </li>
+            <li class="header__social-list-item">
+              <a href="#">
+                <img src="images/facebook.svg" alt="facebook">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <a class="footer__contacts__text-policy" href="#">Политика конфиденциальности</a>
+
+      </div>
+
+    </div>
+
+  </footer>
 </body>
+
 </html>
